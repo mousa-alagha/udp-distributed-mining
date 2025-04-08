@@ -2,7 +2,7 @@
 
 This project implements a scalable and secure distributed mining system using the **UDP protocol**, later extended with a **Load Balancer** architecture.
 
-## 📁 Project Structure
+## Project Structure
 
 ### Part 1 – Basic UDP Mining System
 
@@ -23,18 +23,18 @@ This project implements a scalable and secure distributed mining system using th
 | Server_Part2_22_5.java | Performs mining on assigned nonce ranges. |
 | StringUtil_Part2_22_5.java | Utility reused for consistent hash validation. |
 
-## 🚀 Features
+## Features
 
 - Simple and lightweight **UDP-based client-server** architecture.
 - **Mining simulation** by finding nonce values for hashes with specified leading zeros.
 - **Load balancing** via a custom module that divides mining ranges among multiple servers.
 - **Performance analysis** of execution time across clients and difficulty levels.
 
-## 📊 Performance Analysis
+## Performance Analysis
 
 The system has been tested with multiple clients, variable difficulty (leading zeros), and different numbers of servers. Results showed significant improvements with load balancing.
 
-## 🛠️ How to Run
+## How to Run
 
 1. Compile all Java files.
 2. Run the server(s) and load balancer in appropriate order.
